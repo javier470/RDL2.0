@@ -1,0 +1,24 @@
+.NotFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-15%);
+
+    &-404{
+        color: #E65100;
+        font-size: 3rem;
+    }
+
+    &-text{
+        font-size: 1rem;
+        margin: 10px 0 20px;
+    }
+
+    &-btn{
+        background-color: #FF6F00 !important;
+    }
+}

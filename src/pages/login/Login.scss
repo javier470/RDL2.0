@@ -1,0 +1,78 @@
+.Login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-Box {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 364px;
+        padding: 16px;
+        margin-top: 80px;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+
+        &-Title {
+            h5 {
+                color: rgb(230, 81, 0);
+                font-weight: 700;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+        }
+
+        &-Inputs {
+            margin-top: 48px;
+            margin-bottom: 32px;
+
+            &-Form {
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
+
+                .send {
+                    display: flex;
+                    flex-direction: column;
+
+                    .recoverPassword {
+                        margin: 0px 0px 16px;
+                        font-weight: 400;
+                        font-size: 1rem;
+                        line-height: 1.75;
+                        letter-spacing: 0.00938em;
+                        text-align: right;
+                        color: rgb(230, 81, 0);
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+
+                    .login-btnCont {
+                        display: flex;
+                        justify-content: center;
+
+                        .login-button {
+                            background-color: rgb(255, 111, 0);
+                        }
+                    }
+                }
+            }
+        }
+
+        &-Register {
+            .register-redirect {
+                margin-top: 16px;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.75;
+                letter-spacing: 0.00938em;
+                color: rgb(105, 117, 134);
+                text-align: center;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
